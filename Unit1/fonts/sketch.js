@@ -16,6 +16,6 @@ function draw() {
   text("hello world", width/2, 100) ;
 
   textFont(f2) ;
-  textSizze(24) ;
+  textSize(24) ;
   text("Go You Redbirds", width/2, 160) ;
 }
