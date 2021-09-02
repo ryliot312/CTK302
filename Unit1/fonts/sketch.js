@@ -17,5 +17,5 @@ function draw() {
 
   textFont(f2) ;
   textSize(24) ;
-  text("Go You Redbirds", width/2, 160) ;
+  text("Go You Redbirds!", width/2, 160) ;
 }
