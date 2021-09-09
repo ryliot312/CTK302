@@ -1,4 +1,4 @@
-let song1 ;
+let song1;
 
 function preload() {
   song1 = loadSound("assets/jaz.mp3");
@@ -13,6 +13,14 @@ function setup() {
 
 function draw() {
   background('blue');
+
+}
+function mouseReleased() {
+  if (song1.isPlaying()) {
+    song1.pause() ;
+  } else {
+    song1.loop() ;
+  }
 
 }
 
