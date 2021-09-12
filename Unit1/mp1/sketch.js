@@ -8,7 +8,7 @@ function setup() {
 
 
 function draw() {
-  background('blue');
+  background('#89CFF0');
 
 
 //buildings
@@ -323,8 +323,7 @@ fill('white');
 
   // this shows mouse location - comment it out when you're done!
 
-  fill(0);
-  text(mouseX + ", " + mouseY, 40, 40);
+  
 
 
 
