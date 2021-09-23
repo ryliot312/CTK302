@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background('grey') ;
+  background('black') ;
 //rect(x, 100, 100, 100) ;
 fill('yellow') ;
   textSize(50) ;
