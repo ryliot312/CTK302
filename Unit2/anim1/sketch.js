@@ -8,6 +8,7 @@ function setup() {
 function draw() {
   background('grey') ;
 //rect(x, 100, 100, 100) ;
+fill('yellow') ;
   textSize(50) ;
   text('HELP!', x, 100) ;
   x = x + 3 ;
