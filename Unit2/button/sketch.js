@@ -23,19 +23,19 @@ function draw() {
       break;
 
   }
-  fill('purple') ;
-rect(100, 100, 100, 100) ;
+  fill('purple');
+  rect(100, 100, 100, 100);
 
 
 }
 
 function mouseReleased() {
 
-  if ((mouseX > 100) && (mouseX < 200)) && (mouseY > 100) && (mouseY < 200)) {
+  if ((mouseX > 100) && (mouseX < 200) && (mouseY > 100) && (mouseY < 200)) {
 
 
-  state++;
-  if (state > 2) state = 0;
-}
+    state++;
+    if (state > 2) state = 0;
+  }
 
 }
