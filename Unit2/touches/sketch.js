@@ -34,11 +34,11 @@ function draw() {
       text("three fingers, getting dangerous aren't we", 5, 22);
       break;
 
-    case 4:
-      background('purple');
-      textSize(15);
-      text("four fingers, getting warmer", 5, 22);
-      break;
+    //case 4:
+      //background('purple');
+      //textSize(15);
+    //  text("four fingers, getting warmer", 5, 22);
+    //  break;
 
 
     case 5:
