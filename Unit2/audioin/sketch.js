@@ -30,13 +30,15 @@ function draw() {
   textSize(18);
   text("Click the screen first to give\npermission for mic input.\nMy volume is " + vol, 10, 60);
 
-  fill('grey');
+  fill('green');
   rect(100, vol * 100, 50, 50);
 
-//   rect(vol * 300, 150, 50, 50);
+fill('red');
+  rect(vol * 300, 150, 50, 50);
 
-//   x = map(vol, 0, .2, 0, width) ;
-//   rect(x, 200, 50, 50);
+  x = map(vol, 0, .2, 0, width) ;
+  fill('purple') ;
+  rect(x, 200, 50, 50);
 
 }
 
