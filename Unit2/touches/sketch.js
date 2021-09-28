@@ -41,7 +41,7 @@ function draw() {
       break;
 
 
-    //case 5:
+    case 5:
       background('grey');
       textSize(15);
       text("five finger, high five!", 5, 22);
