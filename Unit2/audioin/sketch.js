@@ -34,7 +34,7 @@ function draw() {
   rect(100, vol * 100, 50, 50);
 
 fill('red');
-  rect(vol * 300, 150, 50, 50);
+  circle(vol * 300, 50, 50);
 
   x = map(vol, 0, .2, 0, width) ;
   fill('purple') ;
