@@ -37,6 +37,21 @@ function draw() {
             // put a picture here
       break ;
 
+      case 4:
+      background('purple');
+      textSize(25);
+       text("four fingers, getting warmer", 5, 22) ;
+      // put a picture here
+      break ;
+
+
+      case 5:
+      background('grey');
+      textSize(25);
+       text("five finger, high five!", 5, 22) ;
+      // put a picture here
+      break ;
+
 
   }
 
