@@ -3,7 +3,7 @@ let image1, image2, image3, image4 ;
 let song1 ;
 
 function preload() {
-  song1 = loadSound("assets/perrysong.mp3");
+  song1 = loadSound("sounds/perrysong.mp3");
 
 
 }
@@ -56,8 +56,9 @@ function draw() {
     }
 
   }
-  
+
   function touchStarted() {
     getAudioContext().resume();
 
+}
 }
