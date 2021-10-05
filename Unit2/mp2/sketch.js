@@ -12,7 +12,9 @@ function preload() {
 function setup() {
   createCanvas(400, 400);
 
-  song1.loop();
+  song1.play();
+
+  song1.pause();
 
   image1 = loadImage("assets/Baby_Perry_0.jpg");
   image2 = loadImage("assets/Perry.jpg");
@@ -54,18 +56,22 @@ function draw() {
       image(image4, width / 2, height / 2, 400, 400);
       break;
   }
+}
+// function mouseReleased(){
+//   if (!song1.isPlaying()) {
+//     song1.play();
+//   }
+// }
 
+// function mousePressed() {
+//   if (song1.isPlaying()) {
+//     song1.pause();
+//   } else {
+//     song1.play();
+//   }
+// }
 
-  function mousePressed() {
-    if (song1.isPlaying()) {
-      song1.pause();
-    } else {
-      song1.play();
-    }
-  }
-
-  function touchStarted() {
-    getAudioContext().resume();
-
-  }
+function touchStarted() {
+  getAudioContext().resume();
+  song1.play();
 }
