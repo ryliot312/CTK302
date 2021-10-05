@@ -34,8 +34,8 @@ function draw() {
     case 0:
     background("yellow") ;
     textFont(f1) ;
-    textSize(48) ;
-    text("Perry the Platypus", width/2, 100) ;
+    textSize(30) ;
+    text("Perry the Platypus \n\n\n\n click to start", 100, 100) ;
       break;
 
     case 1:
