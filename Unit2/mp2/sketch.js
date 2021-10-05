@@ -73,5 +73,7 @@ function draw() {
 
 function touchStarted() {
   getAudioContext().resume();
-  song1.play();
+  if (!(song1.isPlaying())) {
+    song1.loop();
+  }
 }
