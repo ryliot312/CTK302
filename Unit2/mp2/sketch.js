@@ -60,7 +60,7 @@ function draw() {
     if (song1.isPlaying()) {
       song1.pause();
    } else {
-      song1.play();
+     song1.play();
     }
   }
 
