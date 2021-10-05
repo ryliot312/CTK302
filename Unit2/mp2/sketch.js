@@ -32,10 +32,10 @@ function draw() {
 
   switch (numberOfTouches) {
     case 0:
-    background("yellow") ;
-    textFont(f1) ;
-    textSize(30) ;
-    text("Perry the Platypus \n\n\n\n click to start", 100, 100) ;
+      background("yellow");
+      textFont(f1);
+      textSize(30);
+      text("Perry the Platypus \n\n\n\n click to start", 100, 100);
       break;
 
     case 1:
@@ -56,10 +56,16 @@ function draw() {
   }
 
 
-
-
-  function touchStarted() {
-    getAudioContext().resume();
-
+ function mousePressed() {
+    if (song1.isPlaying()) {
+      song1.pause();
+   } else {
+      song1.play();
+    }
   }
-}
+
+    function touchStarted() {
+      getAudioContext().resume();
+
+    }
+  }
