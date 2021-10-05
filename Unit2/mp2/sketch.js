@@ -56,16 +56,16 @@ function draw() {
   }
 
 
- function mousePressed() {
+  function mousePressed() {
     if (song1.isPlaying()) {
       song1.pause();
-   } else {
-     song1.play();
+    } else {
+      song1.play();
     }
   }
 
-    function touchStarted() {
-      getAudioContext().resume();
+  function touchStarted() {
+    getAudioContext().resume();
 
-    }
   }
+}
