@@ -24,7 +24,7 @@ function setup() {
 
   f1 = loadFont("font/Shark.ttf");
 
-imageMode(CENTER);
+imageMode(RIGHT);
 
 }
 
@@ -53,29 +53,45 @@ function draw() {
 
 
           case 2: //intro
-          background("blue"); textFont(f1); textSize(20); textAlign(LEFT); text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, yellow color.", 50, 50);
-            image(image2, width / 2, height / 2, 200, 200);
+          background("blue");
+          textFont(f1);
+          textSize(20);
+          textAlign(LEFT);
+          text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, yellow color.", 50, 50);
+          image(image2, width / 2, height / 2, 200, 200);
             break;
 
 
 
             case 3: //intro
-            background("blue"); textFont(f1); textSize(20); textAlign(LEFT); text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 90, 90);
-              image(image3, width / 2, height / 2, 200, 200);
+            background("blue");
+            textFont(f1);
+            textSize(20);
+            textAlign(LEFT);
+            text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 90, 90);
+            image(image3, width / 2, height / 2, 200, 200);
               break;
 
 
 
               case 4: //intro
-              background("blue"); textFont(f1); textSize(20); textAlign(LEFT); text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 90, 90);
-                image(image4, width / 2, height / 2, 200, 200);
+              background("blue");
+              textFont(f1);
+              textSize(20);
+              textAlign(LEFT);
+              text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 90, 90);
+              image(image4, width / 2, height / 2, 200, 200);
                 break;
 
 
 
                 case 5: //intro
-                background("blue"); textFont(f1); textSize(20); textAlign(LEFT); text("Lastly, we have the Great White Shark! They have their own fin prints and \nthey are not the top of the food chain, surprisingly.", 90, 90);
-                  image(image5, width / 2, height / 2, 200, 200);
+                background("blue");
+                textFont(f1);
+                textSize(20);
+                textAlign(LEFT);
+                text("Lastly, we have the Great White Shark! They have their own fin prints and \nthey are not the top of the food chain, surprisingly.", 90, 90);
+                image(image5, width / 2, height / 2, 200, 200);
                   break;
 
 
