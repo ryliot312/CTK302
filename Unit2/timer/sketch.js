@@ -11,7 +11,7 @@ function setup() {
   image2 = loadImage("assets/pile.jpeg") ;
   image3 = loadImage("assets/road_camera.jpeg") ;
 
-  
+
 }
 
 function draw() {
@@ -46,9 +46,4 @@ if (timer > 3*60) {
     state = 0 ;
   }
 }
-
-
-
-
-
 }
