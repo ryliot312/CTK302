@@ -47,7 +47,7 @@ function draw() {
       textSize(20);
       textAlign(LEFT);
       text("First, up we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 50, 50);
-          image(image1, width / 2, height / 2, 300, 300);
+          image(image1, width / 2, height / 2, 400, 400);
           break;
 
 
@@ -58,7 +58,7 @@ function draw() {
           textSize(20);
           textAlign(LEFT);
           text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, yellow \ncolor.", 50, 50);
-          image(image2, width / 2, height / 2, 300, 300);
+          image(image2, width / 2, height / 2, 400, 400);
             break;
 
 
@@ -69,7 +69,7 @@ function draw() {
             textSize(20);
             textAlign(LEFT);
             text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 90, 90);
-            image(image3, width / 2, height / 2, 300, 300);
+            image(image3, width / 2, height / 2, 400, 400);
               break;
 
 
@@ -80,7 +80,7 @@ function draw() {
               textSize(20);
               textAlign(LEFT);
               text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 90, 90);
-              image(image4, width / 2, height / 2, 300, 300);
+              image(image4, width / 2, height / 2, 400, 400);
                 break;
 
 
