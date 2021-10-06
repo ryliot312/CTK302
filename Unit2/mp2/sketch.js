@@ -52,7 +52,7 @@ function draw() {
 
 
           case 2: //intro
-          background("blue"); textFont(f1); textSize(10); text("Second we have the Lemon Shark! \nThey can weight up to 551 pounds and they get their name from their brownish, yellow color.", 90, 90);
+          background("blue"); textFont(f1); textSize(10); text("Second we have the Lemon Shark! \nThey can weight up to 551 pounds and they get their name from their brownish, yellow color.", 50, 50);
             image(image2, width / 2, height / 2, 300, 300);
             break;
 
