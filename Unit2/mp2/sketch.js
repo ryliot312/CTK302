@@ -46,12 +46,12 @@ function draw() {
       break;
 
     case 1: //intro
-      background("blue");
+      background(image1);
       textFont(f1);
       textSize(20);
       textAlign(LEFT);
       text("First, up we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 50, 50);
-          image(image1, 200, 200);
+      //image(image1, 200, 200);
           break;
 
 
