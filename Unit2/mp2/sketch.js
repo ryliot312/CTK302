@@ -95,7 +95,7 @@ function draw() {
                 textSize(20);
                 textAlign(LEFT);
                 text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, surprisingly.", 90, 90);
-                image(image5, width / 2, height / 2, 300, 300);
+                image(image5, width / 2, height / 2, 200, 200);
                   break;
 
 
