@@ -84,7 +84,7 @@ function draw() {
               textSize(20);
               textAlign(LEFT);
               text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 90, 90);
-              image(image4, width / 2, height / 2, 400, 400);
+              image(image4, width / 2, height / 2, 200, 200);
                 break;
 
 
