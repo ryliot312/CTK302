@@ -37,8 +37,12 @@ function draw() {
     case 0: //intro
       background("blue");
       textFont(f1);
-      textSize(30);
-      text("Welcome to the Shark Show! \n\n\n\n click to start", 90, 90);
+      textSize(35);
+      fill("white");
+      text("Welcome to the Shark Show!", 90, 90);
+      textSize(25);
+      fill("black");
+      text(" \n\nWe will see different sharks\nand some facts about them!\n\n\n\n click to start", 90, 90);
       break;
 
     case 1: //intro
@@ -47,7 +51,7 @@ function draw() {
       textSize(20);
       textAlign(LEFT);
       text("First, up we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 50, 50);
-          image(image1, width / 2, height / 2, 400, 400);
+          image(image1, 200, 200);
           break;
 
 
@@ -58,7 +62,7 @@ function draw() {
           textSize(20);
           textAlign(LEFT);
           text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, yellow \ncolor.", 50, 50);
-          image(image2, width / 2, height / 2, 400, 400);
+          image(image2, width / 2, height / 2, 200, 200);
             break;
 
 
@@ -69,7 +73,7 @@ function draw() {
             textSize(20);
             textAlign(LEFT);
             text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 90, 90);
-            image(image3, width / 2, height / 2, 400, 400);
+            image(image3, width / 2, height / 2, 200, 200);
               break;
 
 
