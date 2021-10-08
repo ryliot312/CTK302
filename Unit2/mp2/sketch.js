@@ -10,7 +10,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(500, 500);
 
   song1.play();
 
@@ -39,7 +39,7 @@ function draw() {
       textFont(f1);
       textSize(35);
       fill("white");
-      text("Welcome to the Shark Show!", 90, 90);
+      text("Welcome to the Shark Show!", 30, 60);
       textSize(25);
       fill("black");
       text(" \n\nWe will see different sharks\nand some facts about them!\n\n\n\n click to start", 90, 90);
@@ -50,8 +50,8 @@ function draw() {
       textFont(f1);
       textSize(20);
       textAlign(LEFT);
-      text("First, up we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 50, 50);
-      image(image1, width/2, height/2, 200, 200);
+      text("First, up we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 30, 60);
+      image(image1, 500, 500, 200, 200);
           break;
 
 
@@ -61,7 +61,7 @@ function draw() {
           textFont(f1);
           textSize(20);
           textAlign(LEFT);
-          text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, yellow \ncolor.", 50, 50);
+          text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, yellow \ncolor.", 30, 60);
           image(image2, width / 2, height / 2, 200, 200);
             break;
 
@@ -72,7 +72,7 @@ function draw() {
             textFont(f1);
             textSize(20);
             textAlign(LEFT);
-            text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 90, 90);
+            text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 30, 60);
             image(image3, width / 2, height / 2, 200, 200);
               break;
 
@@ -83,7 +83,7 @@ function draw() {
               textFont(f1);
               textSize(20);
               textAlign(LEFT);
-              text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 90, 90);
+              text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 30, 60);
               image(image4, width / 2, height / 2, 200, 200);
                 break;
 
@@ -94,7 +94,7 @@ function draw() {
                 textFont(f1);
                 textSize(20);
                 textAlign(LEFT);
-                text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, surprisingly.", 90, 90);
+                text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, surprisingly.", 30, 60);
                 image(image5, width / 2, height / 2, 200, 200);
                   break;
 
