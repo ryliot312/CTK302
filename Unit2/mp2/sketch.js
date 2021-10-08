@@ -52,7 +52,7 @@ function draw() {
       textSize(20);
       textAlign(LEFT);
       text("First, up we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 30, 60);
-      image(image1, 0, 0, 500, 500);
+      //image(image1, 0, 0, 500, 500);
           break;
 
 
