@@ -47,6 +47,7 @@ function draw() {
 
     case 1: //intro
       background("blue");
+      image(image1, 0, 0, 500, 500);
       textFont(f1);
       textSize(20);
       textAlign(LEFT);
