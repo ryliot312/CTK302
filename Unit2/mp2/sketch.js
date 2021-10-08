@@ -63,7 +63,7 @@ function draw() {
           textFont(f1);
           textSize(20);
           textAlign(LEFT);
-          text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, \nyellow color.", 30, 60);
+          text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, \nyellow color.", 30, 150);
 
             break;
 
@@ -75,7 +75,7 @@ function draw() {
             textFont(f1);
             textSize(20);
             textAlign(LEFT);
-            text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 30, 60);
+            text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 30, 150);
 
               break;
 
@@ -87,7 +87,7 @@ function draw() {
               textFont(f1);
               textSize(20);
               textAlign(LEFT);
-              text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 30, 60);
+              text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 30, 150);
                 break;
 
 
@@ -98,7 +98,7 @@ function draw() {
                 textFont(f1);
                 textSize(20);
                 textAlign(LEFT);
-                text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, \nsurprisingly.", 30, 60);
+                text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, \nsurprisingly.", 30, 150);
 
                   break;
 
