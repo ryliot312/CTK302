@@ -51,7 +51,7 @@ function draw() {
       textFont(f1);
       textSize(20);
       textAlign(LEFT);
-      text("First up, we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 60, 60);
+      text("First up, we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 100, 100);
       //image(image1, 0, 0, 500, 500);
           break;
 
@@ -63,7 +63,7 @@ function draw() {
           textFont(f1);
           textSize(20);
           textAlign(LEFT);
-          text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, yellow \ncolor.", 30, 60);
+          text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, \nyellow color.", 30, 60);
 
             break;
 
@@ -98,8 +98,8 @@ function draw() {
                 textFont(f1);
                 textSize(20);
                 textAlign(LEFT);
-                text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, surprisingly.", 30, 60);
-                
+                text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, \nsurprisingly.", 30, 60);
+
                   break;
 
 
