@@ -51,52 +51,55 @@ function draw() {
       textFont(f1);
       textSize(20);
       textAlign(LEFT);
-      text("First, up we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 30, 60);
+      text("First up, we have the Nurse Shark! \nThey suck up their food and \nthey can walk across \nthe bottom floor.", 60, 60);
       //image(image1, 0, 0, 500, 500);
           break;
 
 
 
           case 2: //intro
-          background("blue");
+          //background("blue");
+          image(image2, 0, 0, 500, 500);
           textFont(f1);
           textSize(20);
           textAlign(LEFT);
           text("Second, we have the Lemon Shark! \nThey can weight up to 551 pounds \nand they get their name from their brownish, yellow \ncolor.", 30, 60);
-          image(image2, width / 2, height / 2, 200, 200);
+
             break;
 
 
 
             case 3: //intro
-            background("blue");
+            //background("blue");
+            image(image3, 0, 0, 500, 500);
             textFont(f1);
             textSize(20);
             textAlign(LEFT);
             text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 30, 60);
-            image(image3, width / 2, height / 2, 200, 200);
+
               break;
 
 
 
               case 4: //intro
-              background("blue");
+              //background("blue");
+              image(image4, 0, 0, 500, 500);
               textFont(f1);
               textSize(20);
               textAlign(LEFT);
               text("Fourth, we have the Whale Shark! \nThey can grow up to 40 feet long and \nthey can weight up to 20 tons.", 30, 60);
-              image(image4, width / 2, height / 2, 200, 200);
                 break;
 
 
 
                 case 5: //intro
-                background("blue");
+                //background("blue");
+                image(image5, 0, 0, 500, 500);
                 textFont(f1);
                 textSize(20);
                 textAlign(LEFT);
                 text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, surprisingly.", 30, 60);
-                image(image5, width / 2, height / 2, 200, 200);
+                
                   break;
 
 
