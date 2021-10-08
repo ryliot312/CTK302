@@ -24,7 +24,7 @@ function setup() {
 
   f1 = loadFont("font/Shark.ttf");
 
-imageMode(CENTER);
+//imageMode(CENTER);
 
 }
 
