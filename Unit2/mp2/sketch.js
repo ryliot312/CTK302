@@ -75,7 +75,7 @@ function draw() {
             textFont(f1);
             textSize(20);
             textAlign(LEFT);
-            text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 30, 150);
+            text("Third, we have the Hammerhead shark!\n There are nine different species of hammerheads. \nIt's favorite meal is stingrays.", 30, 180);
 
               break;
 
@@ -98,7 +98,7 @@ function draw() {
                 textFont(f1);
                 textSize(20);
                 textAlign(LEFT);
-                text("Lastly, we have the Great White Shark! They have \ntheir own fin prints and \nthey are not the top of the food chain, \nsurprisingly.", 30, 150);
+                text("Lastly, we have the Great White Shark! They \nhave their own fin prints and \nthey are not the top of the food chain, \nsurprisingly.", 30, 150);
 
                   break;
 
