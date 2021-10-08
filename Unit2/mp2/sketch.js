@@ -46,7 +46,7 @@ function draw() {
       break;
 
     case 1: //intro
-      background("blue");
+    //  background("blue");
       image(image1, 0, 0, 500, 500);
       textFont(f1);
       textSize(20);
