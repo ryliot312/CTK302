@@ -17,7 +17,7 @@ function setup() {
   createCanvas(800, 800);
 image1 = loadImage('assets/clouds_rain.jpeg');
 image2 = loadImage('assets/water_2.png');
-  f1 = loadFont("fonts/ALBAM.ttf") ;
+  f1 = loadFont("fonts/ALBAM.TTF") ;
 
 
 
