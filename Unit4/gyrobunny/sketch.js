@@ -14,7 +14,7 @@ function setup() {
 
 
 
-  bunnyImage = loadImage("assets/bigleafs.jpg");
+  leafImage = loadImage("assets/bigleafs.jpg");
   imageMode(CENTER);
   rectMode(CENTER);
 
