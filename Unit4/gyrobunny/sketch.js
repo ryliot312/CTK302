@@ -36,7 +36,7 @@ function draw() {
 
   rotate(radians(alpha)); // rotate the bunny depending on the alpha intake
 
-  image(leafImage, 0, 0, 500, 500);
+  image(leafImage, windowWidth, windowHeight);
   // rect(0, 0, 100, 100) ;
   pop();
 
