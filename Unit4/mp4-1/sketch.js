@@ -81,10 +81,10 @@ function draw() {
   }
 
   // MORE DECORATIONS - write that pretty ATK type on top.
-  fill('white');
-  textSize(40);
-  textAlign(CENTER);
-  text("water", width / 2, 600, windowWidth - 200, windowHeight - 200);
+  //fill('white');
+  //textSize(40);
+  imageMode(CENTER);
+image(jar, windowWidth/2, windowHeight/2);
 
 
   // Debugging information -- take this out when you're ready for production!

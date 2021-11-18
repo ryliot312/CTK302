@@ -5,6 +5,9 @@ var y = 0;
 var z = 0;
 var xPosition = 0;
 var yPosition = 0;
+let water;
+let jar;
+
 
 // var bunnyImage;
 var cars = [];
@@ -14,6 +17,10 @@ var frogPos;
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
+  jar = loadImage('assets/jar.png');
+  water = loadImage('assets/water_2.png');
+  //evergreen = loadImage('assets/evergreen.jpeg');
+
 
   // initialize accelerometer variables
   alpha = 0;
@@ -29,6 +36,7 @@ function setup() {
   // initialize the frog's position
   frogPos = createVector(width / 2, height - 80);
 
+
   // load any images you need
   //bunnyImage = loadImage("assets/bunny.jpg");
   imageMode(CENTER);
@@ -38,7 +46,7 @@ function setup() {
 
 function draw() {
 
-  background('#c6f5ff'); // light blue
+  background('black'); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -54,8 +62,8 @@ function draw() {
 
   // draw the FROG
   // image(bunnyImage, 0, 0, 500, 500);
-  fill('green');
-  ellipse(0, 0, 80, 80);
+  image(jar, 0, 0, 150, 150);
+  //ellipse(0, 0, 80, 80);
   pop();
 
 
@@ -73,10 +81,10 @@ function draw() {
   }
 
   // MORE DECORATIONS - write that pretty ATK type on top.
-  fill('white');
-  textSize(40);
-  textAlign(CENTER);
-  text("your words or image here!", width / 2, 600, windowWidth - 200, windowHeight - 200);
+  //fill('white');
+  //textSize(40);
+  imageMode(CENTER);
+image(jar, windowWidth/2, windowHeight/2);
 
 
   // Debugging information -- take this out when you're ready for production!
@@ -144,11 +152,13 @@ function Car() {
   // methods
   this.display = function() {
 
+  image(water, this.pos.x, this.pos.y, 50, 50)
+
     // maybe use an image here instead!
-    fill(this.r, this.g, this.b, this.a);
-    ellipse(this.pos.x - 50, this.pos.y, 50, 50);
-    ellipse(this.pos.x + 50, this.pos.y, 50, 50);
-    rect(this.pos.x + 17, this.pos.y - 30, 80, 60) ;
+    //fill(this.r, this.g, this.b, this.a);
+    //ellipse(this.pos.x - 50, this.pos.y, 50, 50);
+    //ellipse(this.pos.x + 50, this.pos.y, 50, 50);
+    //rect(this.pos.x + 17, this.pos.y - 30, 80, 60) ;
 
   }
 
