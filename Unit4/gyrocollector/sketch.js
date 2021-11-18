@@ -62,7 +62,7 @@ function draw() {
 
   // draw the FROG
   // image(bunnyImage, 0, 0, 500, 500);
-  image(jar, 0, 0, 150, 150);
+  image(jar, 0, 0, 100, 100);
   //ellipse(0, 0, 80, 80);
   pop();
 
@@ -84,7 +84,8 @@ function draw() {
   //fill('white');
   //textSize(40);
   imageMode(CENTER);
-image(jar, windowWidth/2, windowHeight/2);
+
+image(jar, windowWidth/2, windowHeight/2, 100, 100);
 
 
   // Debugging information -- take this out when you're ready for production!
