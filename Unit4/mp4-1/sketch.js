@@ -5,10 +5,10 @@ var y = 0;
 var z = 0;
 var xPosition = 0;
 var yPosition = 0;
-let winter1;
-//let snow;
 let yeti;
 let snowball;
+let falling1;
+
 
 
 // var bunnyImage;
@@ -19,10 +19,11 @@ var frogPos;
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
-  //snow = loadImage('assets/snow.jpeg');
   snowball = loadImage('assets/snowball.png');
   yeti = loadImage('assets/yeti.png');
-  winter1 = loadImage('assets/winter1.jpeg');
+  falling1 = ('assets/falling1.jpeg');
+
+
   //evergreen = loadImage('assets/evergreen.jpeg');
 
 
@@ -50,7 +51,7 @@ function setup() {
 
 function draw() {
 
-  background(winter1, windowWidth, windowHeight); // light blue
+  background(falling1, windowWidth, windowHeight); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
