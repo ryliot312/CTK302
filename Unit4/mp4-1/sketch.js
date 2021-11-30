@@ -19,12 +19,7 @@ var frogPos;
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
-  snowball = loadImage('assets/snowball.png');
-  yeti = loadImage('assets/yeti.png');
-  falling1 = ('assets/falling1.jpeg');
 
-
-  //evergreen = loadImage('assets/evergreen.jpeg');
 
 
   // initialize accelerometer variables
@@ -47,11 +42,16 @@ function setup() {
   imageMode(CENTER);
   rectMode(CENTER);
   noStroke();
+
+
+  snowball = loadImage('assets/snowball.png');
+  yeti = loadImage('assets/yeti.png');
+  falling1 = loadImage('assets/falling1.jpeg');
 }
 
 function draw() {
 
-  background(falling1, windowWidth, windowHeight); // light blue
+  image(falling1, width/2, height/2, windowWidth, windowHeight); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -89,7 +89,7 @@ function draw() {
   //fill('white');
   //textSize(40);
   //imageMode(CENTER);
-image(yeti, windowWidth/2, windowHeight/2, 75, 75);
+image(yeti, frogPos.x, frogPos.y, 75, 75);
 
 
   // Debugging information -- take this out when you're ready for production!
