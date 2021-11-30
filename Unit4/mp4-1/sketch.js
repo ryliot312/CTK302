@@ -7,8 +7,9 @@ var xPosition = 0;
 var yPosition = 0;
 let yeti;
 let snowball;
-//let falling1;
-let deer;
+
+//let deer;
+let tree;
 
 
 
@@ -47,12 +48,12 @@ function setup() {
 
   snowball = loadImage('assets/snowball.png');
   yeti = loadImage('assets/yeti.png');
-  deer = loadImage('assets/deer.jpeg');
+  tree = loadImage('assets/tree.jpeg');
 }
 
 function draw() {
 
-  image(deer, width/2, height/2, windowWidth, windowHeight); // light blue
+  image(tree, width/2, height/2, windowWidth, windowHeight); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
