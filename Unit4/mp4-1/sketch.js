@@ -7,7 +7,8 @@ var xPosition = 0;
 var yPosition = 0;
 let yeti;
 let snowball;
-let falling1;
+//let falling1;
+let deer;
 
 
 
@@ -46,12 +47,12 @@ function setup() {
 
   snowball = loadImage('assets/snowball.png');
   yeti = loadImage('assets/yeti.png');
-  falling1 = loadImage('assets/falling1.jpeg');
+  deer = loadImage('assets/deer.jpeg');
 }
 
 function draw() {
 
-  image(falling1, width/2, height/2, windowWidth, windowHeight); // light blue
+  image(deer, width/2, height/2, windowWidth, windowHeight); // light blue
 
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -94,20 +95,20 @@ image(yeti, frogPos.x, frogPos.y, 75, 75);
 
   // Debugging information -- take this out when you're ready for production!
   // Just a bunch of text commands to display data coming in from addEventListeners
-  textAlign(LEFT);
-  textSize(20);
-  fill('black');
-  text("orientation data:", 25, 25);
-  textSize(15);
-  text("alpha: " + alpha, 25, 50);
-  text("beta: " + beta, 25, 70);
-  text("gamma: " + gamma, 25, 90);
-  textSize(20);
-  text("acceleration data:", 25, 125);
-  textSize(15);
-  text("x = " + x, 25, 150); // .toFixed means just show (x) decimal places
-  text("y = " + y, 25, 170);
-  text("z = " + z, 25, 190);
+  // textAlign(LEFT);
+  // textSize(20);
+  // fill('black');
+  // text("orientation data:", 25, 25);
+  // textSize(15);
+  // text("alpha: " + alpha, 25, 50);
+  // text("beta: " + beta, 25, 70);
+  // text("gamma: " + gamma, 25, 90);
+  // textSize(20);
+  // text("acceleration data:", 25, 125);
+  // textSize(15);
+  // text("x = " + x, 25, 150); // .toFixed means just show (x) decimal places
+  // text("y = " + y, 25, 170);
+  // text("z = " + z, 25, 190);
 
 
 }
